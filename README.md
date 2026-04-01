@@ -1,36 +1,31 @@
 # 📦 Hospitality Data Platform
 
-(add your badges here)
-
-> *This document is the complete setup guide for the Hospitality Industry Data Analytics PoC. It covers the architecture, the account information you need to collect before starting, a step-by-step deployment walkthrough, and a reference for all SQL deliverables.*
-
-
 ## 🌟 Highlights
 
-- Some functionality made easy!
-- This problem handled
-- etc.
-
+- Track bookings, properties, and customers.
+- Revenue tracking.
+- Insight report: completed bookings + revenue by property.
+- Incremental load from S3 with upsert.
+- Error handling in the load process.
+- S3 ingestion.
+- Medallion architecture.
+- Airflow orchestration.
 
 ## ℹ️ Overview
 
-A paragraph explaining your work, who you are, and why you made it.
-
+> *This document is the complete setup guide for the Hospitality Industry Data Analytics PoC. It covers the architecture, the account information you need to collect before starting, a step-by-step deployment walkthrough, and a reference for all SQL deliverables.*
 
 ### ✍️ Authors
 
-Mention who you are and link to your GitHub or organization's website.
+Fernando Rodrigues Nepomuceno
 
+## 🏛️ Architecture Diagram 
 
-## 🚀 Usage
+[Alt text](Lambda)
 
 *Show off what your software looks like in action! Try to limit it to one-liners if possible and don't delve into API specifics.*
 
-```py
->>> import mypackage
->>> mypackage.do_stuff()
-'Oh yeah!'
-```
+
 
 
 ## ⬇️ Installation
@@ -41,7 +36,7 @@ Simple, understandable installation instructions!
 pip install my-package
 ```
 
-And be sure to specify any other minimum requirements like Python versions or operating systems.
+And be sure to specify any other minimum requirements, like Python versions or operating systems.
 
 *You may be inclined to add development instructions here, don't.*
 
