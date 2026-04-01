@@ -19,6 +19,10 @@
 
 Fernando Rodrigues Nepomuceno
 
+## 🏛️ Logical Model
+![screenshot](Blank_diagram.svg)
+
+
 ## 🏛️ Architecture Diagram 
 
 ![screenshot](Lambda.png)
