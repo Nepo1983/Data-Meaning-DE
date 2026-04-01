@@ -21,12 +21,10 @@ Fernando Rodrigues Nepomuceno
 
 ## 🏛️ Architecture Diagram 
 
-![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg](https://github.com/Nepo1983/Data-Meaning-DE/edit/main/README.md#:~:text=Use%20Case.pdf-,Lambda,-.png)?raw=true)
+![screenshot](Lambda.png)
 
 
 *Show off what your software looks like in action! Try to limit it to one-liners if possible and don't delve into API specifics.*
-
-
 
 
 ## ⬇️ Installation
