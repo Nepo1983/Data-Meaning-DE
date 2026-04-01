@@ -22,12 +22,12 @@ Fernando Rodrigues Nepomuceno
 ## 🧮 Logical Model
 > *Three entities match the use case specification directly. A Customer makes one or more Bookings. Each Booking is for one Property. Revenue is tracked at the Booking level and is only counted for completed status.*
 
-![screenshot](Blank_diagram.svg)
+![screenshot](images/Blank_diagram.svg)
 
 
 ## 🏛️ Architecture Diagram 
 
-![screenshot](Lambda.png)
+![screenshot](images/Lambda.png)
 
 ## Physical Model Decisions
 
