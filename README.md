@@ -19,13 +19,23 @@
 
 Fernando Rodrigues Nepomuceno
 
-## 🏛️ Logical Model
+## 🧮 Logical Model
+> *Three entities match the use case specification directly. A Customer makes one or more Bookings. Each Booking is for one Property. Revenue is tracked at the Booking level and is only counted for completed status.*
+
 ![screenshot](Blank_diagram.svg)
 
 
 ## 🏛️ Architecture Diagram 
 
 ![screenshot](Lambda.png)
+
+## Physical Model Decisions
+
+
+| Header 1 | Header 2 | Header 3 |
+| -------- | -------- | -------- |
+| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
+| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
 
 
 *Show off what your software looks like in action! Try to limit it to one-liners if possible and don't delve into API specifics.*
