@@ -21,7 +21,7 @@ Fernando Rodrigues Nepomuceno
 
 ## 🏛️ Architecture Diagram 
 
-[Alt text](Lambda)
+![Alt text](https://github.com/Nepo1983/Data-Meaning-DE/edit/main/README.md#:~:text=Use%20Case.pdf-,Lambda,-.png)
 
 *Show off what your software looks like in action! Try to limit it to one-liners if possible and don't delve into API specifics.*
 
