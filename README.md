@@ -32,11 +32,27 @@ Fernando Rodrigues Nepomuceno
 ## Physical Model Decisions
 
 
-| Header 1 | Header 2 | Header 3 |
-| -------- | -------- | -------- |
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-
+| Decision | Rationale |
+| -------- | -------- |
+| TEXT primary keys (booking_id, property_id, customer_id)
+ | Match source system IDs; avoids sequence mismatches on incremental loads
+ |
+| CHECK constraint on status
+ |Enforces valid enum values at DB level: confirmed / canceled / completed
+ |
+ |CHECK constraint on revenue >= 0
+|Revenue cannot be negative; canceled bookings default to 0
+|
+|CHECK constraint on check_out > check_in|Prevents logically invalid stay date ranges
+|
+|Indexes on bookings.property_id, customer_id, status, check_in
+|Speeds up the primary insight query and date-range filtering
+|
+|Bronze schema uses TEXT-only columns|Avoids type errors on raw data; casting happens in silver layer
+|
+|gold.bookings_by_property uses UPSERT
+|Idempotent refresh — safe to re-run without duplicates
+|
 
 *Show off what your software looks like in action! Try to limit it to one-liners if possible and don't delve into API specifics.*
 
